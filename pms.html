@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>PMS</title>
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PMS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Parcel Booking</a></li>
+            <li><a class="dropdown-item" href="#">Loading</a></li>
+            <li><a class="dropdown-item" href="#">Unloading</a></li>
+            <li><a class="dropdown-item" href="#">Delivery</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<img src="pluto.jfif" class="img-fluid" alt="..." width="1400">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image1.jpg" class="d-block" width="1400" height="360" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image2.jpg" class="d-block" width="1400" height="360" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image3.jpg" class="d-block" width="1400" height="360" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="parcel2.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="300" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3 m-3">Welcome to Railway Parcel Management System</h1>
+        <p class="lead m-3">Welcome to Indian Railway Parcel Management Website. [ver.19.05.01.01[May-19]]
+Please note that to update train master, please request Sr. DCM
+Please note for consignor/consignee to start message SMS START and to stop message SMS STOP to 9821736069</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start m-3">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Read more...</button>
+          <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
+        </div>
+      </div>
+    </div>
+	
+<div class="m-5">
+    <form action="/examples/actions/confirmation.php" method="post" >
+			<div class="row mb-3">
+            <label for="inputtext" class="col-sm-1 col-form-label">User Id</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputtext1" placeholder="User Id" required>
+            </div>
+        </div>
+    <div class="row mb-3">
+            <label class="col-sm-1 col-form-label" for="inputPassword">Password</label>
+			<div class="col-sm-5">
+				<input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+			</div>
+	</div>
+	<div class="mb-3">
+	<div class="col-sm-5">
+		<select class="form-select" aria-label="Default select example">
+	<option selected>General Shift</option>
+	<option value="1">Morning Shift</option>
+	<option value="2">Evening Shift</option>
+		</select>
+		</div>
+	</div>		
+		<div class="row mb-3">
+            <label for="inputtext" class="col-sm-1 col-form-label">Enter Station Code</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputtext2" placeholder="" required>
+            </div>
+        </div>
+		<div class="row mb-3">
+            <label for="inputtext" class="col-sm-1 col-form-label">Private Cash</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputtext3" placeholder="" required>
+            </div>
+        </div>
+		<div class="row mb-3">
+            <label for="inputtext" class="col-sm-1 col-form-label">Running Stationary No.</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputtext4" placeholder="" required>
+            </div>
+        </div>
+	<div class="mb-3">
+	<div class="col-sm-5">
+		<select class="form-select" aria-label="Default select example">
+	<option selected>PWBK-Parcel Booking</option>
+	<option value="1">DLVRY-Delivery</option>
+	<option value="2">LDG-Loading</option>
+	<option value="3">UNLDG-Unloading</option>
+	<option value="4">COMP-Computer</option>
+		</select>
+		</div>
+	</div>
+		<div class="row mb-3">
+            <label for="inputtext" class="col-sm-1 col-form-label">Counter No.</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputtext5" placeholder="" required>
+            </div>
+        </div>
+		<div class="mb-3">
+        <button type="submit" class="btn btn-primary">Submit</button>
+		</div>
+    </form>
+</div>
+    
+<footer class="footer mt-auto py-3 bg-dark">
+  <div class="container">
+    <span class="text-muted">Design & Developed by Center for Railway Information System (CRIS), New Delhi
+<br>Copyright © 2004 CRIS All Rights Reserved.</span>
+  </div>
+</footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
